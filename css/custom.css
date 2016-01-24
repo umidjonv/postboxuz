@@ -21,3 +21,13 @@
     height: 50px;
     font-size: 20px;
 }
+.navbar-default{
+    color: #000;
+    background-color: #3f9fcf;
+}
+.navbar-default a{
+    color: #fff;
+}
+.navbar-default a.navbar-brand{
+    color: #fff;
+}
