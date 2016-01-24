@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>НАЧАЛО РАБОТЫ С BRACKETS</title>
+        <meta name="description" content="Интерактивное руководство по началу работы в Brackets.">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+    <body>
+              
+            
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">POSTBOX.UZ</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    
+                  </ul>
+                  <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <div class="userblock">
+                        <div>Отправитель №1</div>
+                        <div><a href="#"><u>Пользователь АБУ 1</u></a></div>
+                        </div>
+                    </li>
+                      <li>
+                        <img src="images/icons/door13.png" class="signout"/>
+                      </li>
+                    
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+           
+        <div class="container">
+      
+        <div class="row cont">
+            <div class="col-sm-12 col-md-12">
+                <div class="btn-group topnavigation" role="group" aria-label="..." style="width:100%;">
+                  <button type="button" class="btn btn-default">Адресная книга</button>
+                  <button type="button" class="btn btn-default">Реестр писем</button>
+                  <button type="button" class="btn btn-default">Подготовка в печать</button>
+                  <button type="button" class="btn btn-default">Личный кабинет</button>
+                    <button type="button" class="btn btn-info pull-right">Как это работает</button>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 cont">
+                <div class="col-sm-3 col-md-3" >
+                    <div class="col-sm-12" id="sidebar">
+                     
+                        <!-- SIDEBAR -->
+                        Индекс: 100 000 <br/>
+                        <p>
+                        От кого: <b>Межрайонный суд по гражданским делам Яккасарайского района</b>
+                        </p>
+                        <p>
+                        Откуда: <b>Ташкентский Яккасарайский р-н, ул. Акад. К. Козим Усмонходжаева</b>
+                        </p>
+                    </div>
+                    <img src="images/sidebshadow.png" width="100%" style="margin-top:-10px;" />
+                    
+                    <div class="col-sm-12" id="sidebar">
+                     
+                        <ul class="nav nav-pills nav-stacked">
+                            <li role="presentation" class="active"><a href="#">Шаг 1</a></li>
+                            <li role="presentation" class=""><a href="#">Шаг 2</a></li>
+                            
+                        </ul>
+                    </div>
+                    <img src="images/sidebshadow.png" width="100%" style="margin-top:-10px;" />
+                </div>
+                <div class="col-sm-9 col-md-9 content">
+                    <div class="row">
+                        <h3><i>Регистрация</i></h3>
+                    <h4>Ваши данные</h4> 
+                    <form action="" method="POST">
+                        <div class="form-group">
+                            <label class="form-label">От кого: <span>*</span></label>
+                            <input type="text" class="form-control" placeholder="Организация"/>
+                            <span class="glyphicon glyphicon-warning-sign"></span> Указываемое название должно помещаться на полях конверта. Если название длинное укажите сокращенный вариант
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Откуда: <span>*</span></label>
+                            <input type="text" class="form-control" placeholder="Откуда"/>
+                        </div>
+                        <div class="form-group">
+                            
+                            <div class="col-md-3" style="padding-left:0px;">
+                                <label class="form-label">Индекс: <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Индекс" />
+                            
+                            </div>
+                            <div class="row"></div>
+                            
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-3" style="padding-left:0px;">
+                                <input type="submit" value="Регистрировать" class="btn btn-default form-control"/>
+                            </div>
+                            <br/>
+                        </div>
+                    </form>
+                    </div>
+                    
+                    <div class="row">
+                        <h4>Как это выглядит на конверте</h4>
+                        <div class="col-md-11 convert">
+                        
+                            <div class="col-md-1">
+                                
+                            </div>
+                            <div class="col-md-9">
+                                <h6>Jo'natuvchi manzili<br/>Адрес отправителя</h6>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="cright"></div>
+                            </div>
+                            <div class="row" id="cnv_from">
+                                <div class="col-md-6">
+                                    <div class="cnv_sender">
+                                    <span>Kimdan/От кого: </span><u> Межрайонный суд по гражданским делам Яккасарайского района</u>
+                                        <br/>
+                                    <span>Qayerdan/Откуда: </span><u>Ташкентский Яккасарайский р-н, ул. Акад. К. Козим Усмонходжаева</u>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" id="cnv_footer">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-7"><img src="images/znakPochty.png" class="img"/></div>
+                                <div class="col-md-3"><h6>Oluvchi indeksi va manzili<br/>Индекс и адрес получателя</h6></div>
+                        
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+            
+        </div>
+            
+            <!-- Convert part -->
+        
+        </div>
+        <div class="row" id="footer"></div>
+    </body>
+</html>

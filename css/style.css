@@ -1,0 +1,92 @@
+body{
+    background-color: #f4faff;
+}
+.top{
+    height: 50px;
+    padding:10px 50px;
+}
+.cont{
+    
+    padding-top: 30px;
+    margin-left: -20px;
+}
+#sidebar{
+    background-color: white;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    
+}
+
+.signout{
+    position: relative;
+    
+    margin: 7px;
+    width: 32px;
+    height: 32px;
+    float:right;
+    
+}
+.userblock{
+    margin: 7px 0px;
+}
+.topnavigation{
+    border: 1px solid #3f9fcf;
+    border-radius: 5px;
+}
+
+.content h3{
+    margin-top: 0px;
+}
+.convert{
+    border-left:1px solid #000;
+    border-top:1px solid #000;
+    height: 250px;
+    background-color: #fff;
+    
+}
+.convert h6{
+    color: #3399cc;
+    margin-top: 25px;
+}
+.convert .cright{
+    border-right:1px solid #3399cc;
+    border-top:1px solid #3399cc;
+    width:50px;
+    height:50px;
+    margin-top: 20px;
+    margin-left:50px;
+}
+.convert .cnv_sender{
+    margin-left: 30px;
+    
+}
+.convert .cnv_sender span{
+    color: #3399cc;
+    margin:2px;
+}
+.convert .img {
+transform:          rotate(-90deg);
+-ms-transform:      rotate(-90deg);
+-moz-transform:     rotate(-90deg);
+-webkit-transform:  rotate(-90deg);
+-o-transform:       rotate(-90deg);
+    
+}
+.convert .znak{
+    overflow: hidden;
+}
+#cnv_from{
+    height:200px;
+}
+#cnv_footer{
+    height:50px;
+    overflow: hidden;
+}
+#footer{
+    height:50px;
+    background-color: #3f9fcf;
+    margin-top: 20px;
+}
+.content .form-label span{
+    color:red;
+}
